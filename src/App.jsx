@@ -1,3 +1,8 @@
+import { useState, useRef, useEffect } from "react";
+
+// ═══════════════════════════════════════════════════════════════
+//  CONSTANTS
+// ═══════════════════════════════════════════════════════════════
 const BLOOD_TYPES = ["A+","A-","B+","B-","AB+","AB-","O+","O-"];
 // Weight categories by division and gender
 const WEIGHT_CATS = {
@@ -1117,4 +1122,3 @@ export default function App(){
     </div>
   </div>;
 }
-
